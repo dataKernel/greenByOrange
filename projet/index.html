@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Projet</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="reset.css">
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="menu col-md-12" id="menu">
+			<ul>
+				<li class="row gauche col-md-3"><a href="#">GREEN by Orange</a></li>
+				<li class="row gauche col-md-3"><a href="#">Nouveau projet</a></li>
+				<li class="row gauche col-md-3"><a href="#">Nos services</a></li>
+				<li class="row gauche col-md-3"><a href="#">Aide</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<div class="intro">
+			<p><span>C'est parti !</span><br>
+				Faites bonne impression avec le nom et l'image de votre projet. Définissez votre objectif de financement, la durée de votre campagne et la catégorie de votre projet.
+			</p>
+		</div>
+	</div>
+	<div class="container">
+		<section class="gauche col-md-9">
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Image du projet</h4>
+				<img src="img/orange.jpg" class="col-md-6 col-md-offset-1">
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Titre du projet</h4>
+				<textarea maxlength="60" placeholder="Titre du projet" class="col-md-8"></textarea>
+					<p class="col-md-8 col-md-offset-4">Le titre et le texte d'introduction de votre projet doivent être simples, précis et percutants. Nos outils de recherche vérifieront ces sections, donc n'oubliez pas d'y ajouter des mots-clés !</p>
+					<p class="col-md-8 col-md-offset-4">Ces mots-clés aideront les utilisateurs à trouver votre projet, donc choisissez-les bien. Votre nom fera aussi partie des résultats de recherche.</p>
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Présentation de votre projet</h4>
+				<textarea maxlength="500" placeholder="Presentation du projet" class="col-md-8"></textarea>
+				<p class="col-md-8 col-md-offset-4">Comment décririez-vous votre projet en un seul Tweet ?</p>
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Catégorie</h4>
+				<select class="col-md-8">
+					<option>Art</option>
+					<option>Agriculture</option>
+					<option>Eco</option>
+					<option>Bio</option>
+					<option>Technologie</option>
+					<option>Commerce</option>
+					<option>Artisanat</option>
+					<option>Web</option>
+				</select>
+				<select class="col-md-8">
+					<option>Art2</option>
+					<option>Agriculture2</option>
+					<option>Eco2</option>
+					<option>Bio</option>
+					<option>Technologie2</option>
+					<option>Commerce2</option>
+					<option>Artisanat2</option>
+					<option>Web2</option>
+				</select>
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Lieu</h4>
+				<input type="text" name="Pays/Ville" placeholder="Ville/Pays" class="col-md-8">
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Durée de campagne</h4>
+				<div class="radio choix1 col-md-3">
+					<label>Nombre de jours :</label>
+				</div>
+				<input type="text" name="" placeholder="De 1 à 60 jours (durée idéale : < 30 jours)" class="col-md-5">
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Objectif de financement</h4>
+				<input type="number" name="" placeholder="prix du projet €" class="col-md-8">
+				<p class="col-md-8 col-md-offset-4">Votre objectif de financement correspond au montant minimum dont vous avez besoin pour mener à bien votre projet et produire toutes les récompenses (sans oublier les frais de port !). Comme le financement participatif Kickstarter fonctionne sur le principe du « tout ou rien », vous pouvez récolter une somme supérieure à votre objectif, mais jamais inférieure. Une fois votre projet lancé, vous ne pouvez plus modifier votre objectif de financement.</p><br>
+
+				<p class="col-md-8 col-md-offset-4">Si votre projet est financé intégralement, les frais suivants sont prélevés sur le total des fonds à collecter : 5 % de frais Kickstarter et les frais de traitement des paiements (entre 3 % et 5 %). Si votre projet n'est pas intégralement financé, il n'y a pas de frais.</p><br>
+				<p class="col-md-8 col-md-offset-4"><a href="#">Plus d'informations sur la répartition des frais</a></p>
+			</div>
+			<div class="row gris col-md-12">
+				<h4 class="col-md-4">Label / Certification</h4>
+				<p class="col-md-8">Afficher vos labels ou certifications fièremment pour montrer la provenance et la qualité de vos produits/services.</p>
+				<button class="btn btn-success btn-lg col-md-6 col-md-offset-5">Ajouter des labels ou certification</button>
+			</div>
+		</section>
+		<section class="row droit col-md-3">
+			<div class="row astuce col-md-8">
+				<p>Mode d'emploi : <a href="https://www.kickstarter.com/help/handbook/getting_started">Réussir la création de votre projet</a></p>
+			</div>
+			<div class="row astuce col-md-12">
+				<h4>Besoin de conseils ?</h4>
+				<p>Visitez le Campus pour participer à des <a href="https://www.kickstarter.com/campus/questions/what-three-things-do-you-know-now-that-you-wish-you-knew-before-you-launched-your-project?ref=build_basics">discussions sur la préparation d'un projet</a> et plus.</p>
+			</div>
+		</section>
+	</div>
+</div>
+</body>
+</html>

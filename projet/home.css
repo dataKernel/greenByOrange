@@ -1,0 +1,158 @@
+@font-face {
+    font-family: ProximaL;
+    src: url(font/ProximaLight.otf);
+}
+@font-face{
+	font-family: ProximaR;
+    src: url(font/ProximaRegular.otf);
+}
+body {
+	font-family: ProximaR;
+}
+.container-fluid {
+	background-color: #f2f2f2;
+	padding: 0;
+}
+.container-fluid header{
+	margin-top: 3%;
+}
+header p {
+	margin: 2% 0% 10% 0%;
+	font-size: 30px;
+	color: #b7b5b5;
+	text-align: center;
+}
+.menu{
+	margin: 1%;
+}
+ul li{
+	list-style: none;
+	display: inline;
+	padding: 1%;
+}
+li {
+	text-decoration: none;
+	color: #b7b5b5;
+}
+.principal{
+	color: #fff;
+	background-image: url(img/jaune.png);
+	background-position: 101% -6%;
+	background-repeat: no-repeat;
+	background-color: #d8c715;
+	padding: 2%;
+	margin-bottom: 2%;
+}
+.principal_gauche p{
+	font-weight: bold;
+}
+.principal_gauche img {
+    width: 50px;
+    margin-top: 10%;
+}
+.presentation h2{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.presentation h2 span{
+	text-transform: lowercase;
+	font-size: 15px;
+}
+.bas_presentation{
+	font-weight: bold;
+}
+
+.progression{
+	margin: 2%;
+}
+.progression img{
+	margin-bottom: 2%;
+}
+.decouvrir{
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding: 2%;
+}
+.decouvrir:hover{
+	background-color: #fff;
+	color: #000;
+}
+.decouvrir:hover a{
+	color: #6bd46b;
+}
+.decouvrir a{
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.bleu{
+	background-image: url(img/bleu.png);
+	background-position: 103% -1%;
+	background-repeat: no-repeat;
+	background-color: #86c0c5;
+}
+.jaune{
+	background-image: url(img/jaune.png);
+	background-position: 105% -3%;
+	background-repeat: no-repeat;
+	background-color: #d8c715;
+}
+.vert {
+	background-image: url(img/vert.png);
+	background-position: 103% -1%;
+	background-repeat: no-repeat;
+	background-color: #6bd46b;
+}
+.bloc{
+	text-align: center;
+	color: #fff;
+	padding: 40% 0% 30% 0%;
+	height: 45vh;
+}
+.bloc1{
+	padding-left: 0!important;
+}
+.bloc3{
+	padding-right: 0!important;
+}
+.bloc h2{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	text-transform: uppercase;
+}
+.bloc h2 span{
+	text-transform: lowercase;
+	font-size: 15px;
+}
+.questions{
+	text-align: center;
+	box-shadow: 1px 1px 55px 0px #e2e2e2;
+}
+button{
+	background-color: #6bd46b;
+	padding: 1% 2%;
+	border: none;
+}
+button a {
+	color: #fff;
+}
+.questions{
+	padding: 5%;
+	margin-bottom: 2%;
+}
+.questions p {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: ProximaR;
+}
+.questions p span{
+    font-weight: normal;
+    font-size: 25px;
+    font-family: ProximaL;
+}
